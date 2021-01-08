@@ -1,5 +1,5 @@
 
-//Select the section with an id of container without using querySelector.
+//1. Select the section with an id of container without using querySelector.
 document.getElementById("container");
 
 //2) Select the section with an id of container using querySelector.
@@ -10,7 +10,6 @@ document.querySelectorAll(".second");
 
 //4) Select a list item with a class of third, but only the list item inside of the ol tag.
 let x=document.querySelector("#container > ol > .third");
-console.log(x);
 
 //5) Give the section with an id of container the text "Hello!".
 var element= document.querySelector("#container").innerText ("Hello!");
